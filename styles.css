@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Inter Thin', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+.navigation {
+    background-color: #ab8a3f;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-placeholder {
+    font-weight: bold;
+    color: white;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tab {
+    background-color: #eddfa4;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: #3f2f16;
+    color: white;
+}
+
+/* Header Section */
+.header-section {
+    background-color: white;
+    border: 2px solid #ceb66f;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.module-title {
+    font-family: 'New Frank Extra Bold', sans-serif;
+    color: #3f2f16;
+}
+
+.subtitle {
+    font-family: 'New Frank Medium', sans-serif;
+    color: #3f2f16;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.iframe-placeholder {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #f0f0f0;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ceb66f;
+}
+
+.course-home-button {
+    background-color: #ceb66f;
+    color: #3f2f16;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.text-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image-placeholder {
+    background-color: #f0f0f0;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.main-course-content {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ceb66f;
+}
+
+/* Footer */
+.footer {
+    background-color: #ab8a3f;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons > div {
+    margin-right: 10px;
+}
+
+.company-logo {
+    font-weight: bold;
+    color: white;
+}
+.tab.active {
+    background-color: #3f2f16;
+    color: white;
+}
+
+/* Hide all tab content by default except the first tab content */
+.tab-content {
+    display: none;
+}
+
+/* Show the first tab content by default */
+#content1 {
+    display: block;
+}
